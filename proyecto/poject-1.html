@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto_pagina_1</title>
+    <link rel="stylesheet" href="paginacss.css">
+    <link rel="stylesheet" href="css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="C:\Users\m_arc\OneDrive\Documents\practicas ingenieria web\proyecto\kisspng-web-development-computer-icons-website-web-design-website-save-icon-format-5ab16632047e59.9631672015215754740184.png" 
+    type="png" />
+    <script src="https://kit.fontawesome.com/eb496ab1a0" 
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+<script type="text/javascript">
+    // Call carousel manually
+    $('#myCarouselCustom').carousel();
+    
+    // Go to the previous item
+    $("#prevBtn").click(function(){
+        $("#myCarouselCustom").carousel("prev");
+    });
+    // Go to the previous item
+    $("#nextBtn").click(function(){
+        $("#myCarouselCustom").carousel("next");
+    });
+    </script>
+    <script type="text/javascript">
+        $('.carousel').carousel({
+             interval: 5000,
+             pause:true,
+             wrap:false
+        });
+        </script>
+</head>
+
+
+<body>
+
+    <a href="#" class="btn-flotante">inicio</a>
+
+    <header>
+        <nav>
+            <a href="#sobre-nosotros">sobre nosotros</a>
+            <a href="#informacion">informacion y 
+                datos curiosos
+            </a>
+            <a href="#galeria">galeria</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <section class="textos-header" >
+           <a name="inicio"> <h1>fotografia de paisaje en CDMX</h1></a>
+            <h2>Marco Antonio Hernandez Torres</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <div class="container">
+        <input tipe="checkbox" id="btn-mas">
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100006255196022" class="fa fa-facebook"></a>
+            <a href="https://www.facebook.com/EnCiudadDeMexico" class="fa fa-facebook"></a>
+            
+        </div>
+        <div>
+            <label for="btn-mas" class="fa fa-plus"></label>
+        </div>
+    </div>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" align="center">
+            <div class="item active">
+                <img src="estadio_olimpico.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="diana_cdmx.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="metro.jpg" alt="">
+            </div>
+        </div>
+    
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+    <section class="contenedor sobre-nosotros">
+       <a name="sobre-nosotros"><h2 class="titulo">quienes somos</h2> </a>
+        <div class="contenedor-sobre-nosotros">
+            <img src="foto_express.jpg" alt="" class="imagen-about-us">
+            <div class="contenido-textos">
+                <h3><span>1</span>somos una organizacion</h3>
+                <p>sin fines de lucro y meramente con fines de entretenimiento y de apreciacion</p>
+                <h3><span>2</span>tomamos</h3>
+                <p>los mas bellos paisajes que ofrece la CDMX, 
+                    pasaremos tanto de destinos turisticos hasta adentrarnos a las calles
+                buscando otro enfoque que le damos a nuestra vida diaria, dandole un vlaor cultural</p>
+            </div>
+        </div>
+    </section>
+    <div align="center">
+    </div> 
+    <br>
+    
+   
+<section class="visitantes">
+<div align="center" class="contenedor">
+    <a name="informacion"><h2 class="titulo">informacion</h2></a>
+    
+    <table border="2.5" background="pared.jpg">
+       
+        <tr>
+            <td colspan="2" align="center"><strong> principales destinos de turistas en CDMX </strong></td>
+        </tr>
+        <tr>
+        <td><strong> destinos principales </strong> </td>
+        <th>visitantes anuales</th>
+        
+        </tr>
+        <tr>
+            <td>Chapultepec</td>
+            <th>5,5 Millones </th>
+           
+        </tr>
+        <tr>
+            <td>Zocalo</td>
+            <th>15 millones </th>
+            
+        </tr>
+        <tr>
+                <td>Xochimilco</td>
+                <th>2 millones </th>
+                
+        </tr>
+        <tr>
+                <td>Teotihuacan</td>
+                <th>1 milon </th>
+                
+            </tr>
+    </table>        
+</div>
+ <div align="center"> 
+        <parrafo> 
+    nosotros fotografiamos lo mas bello que nos puede entregar hasta el transporte publico
+        </parrafo> 
+<br>
+<br>
+<img src="FB_IMG_1630768186734.jpg" 
+alt="cablebus" width="450px">
+</div>
+<div >
+    <br>
+<parrafo>
+    segun sectur CDMX en dic 2021 la ciudad recibio a 3 millones de turistas
+     y la mayoria visito lugares como
+</parrafo>
+<br>
+
+<ul>
+<li><a href="https://www.chapultepec.org.mx/">boque de chapultepec </a></li>
+<li><a href="http://museopalaciodebellasartes.gob.mx/">Palacio de bellas artes</a></li>
+<li><a href="http://cdmxtravel.com/es/lugares/plaza-de-la-constitucion-zocalo.html">Zocalo CDMX</a></li>
+<li><a href="https://www.visitmexico.com/ciudad-de-mexico/xochimilco">Xochimilco</a></li>
+</ul>
+<img src="IMG_20210907_090734.jpg" 
+    alt="palacio de bellas artes" width="350px">
+
+</div>
+   <div align="right"> 
+    <pre>
+        como dato curioso:
+        la propia secretaría de turismo declaro: 
+        "recibimos un millon de asistentes en la celecracion de dia de muertos"
+    </pre>
+    <br>
+    <br>
+    <img src="FB_IMG_1631649222563.jpg" 
+    alt="dia de muertos" width="450px">
+   </div> 
+   <center>
+    <a href="https://www.visitmexico.com/ciudad-de-mexico/cdmx"> <button type="button" class="btn btn-warning">visit mexico</button>  </a>
+   </center>
+</section>
+<br>
+<br>
+<section class="portafolio" >
+    <div class="contenedor">
+        <a name="galeria"><h2 class="titulo">galeria</h2></a>
+        <div class="galeria-port">
+            <div class="imagen-port">
+                <img src="angel independencia.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="fondo.png" alt="">
+                    <p>angel de la independencia</p>
+                </div>
+            </div>
+            <div class="imagen-port">
+                <img src="coyoacan.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="fondo.png" alt="">
+                    <p>coyoacan</p>
+                </div>
+            </div>
+            <div class="imagen-port">
+                <img src="metroCDMX.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="fondo.png" alt="">
+                    <p>vias tren de carga</p>
+                </div>
+            </div>
+            <div class="imagen-port">
+                <img src="revolucion.jpg" alt="">
+                <div class="hover-galeria">
+                    <img src="fondo.png" alt="">
+                    <p>monumento a la revolucion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="opiniones contenedor">
+   <a name="opiniones"> <h2 class="titulo">opiniones</h2></a>
+    <div class="cards">
+        <div class="card">
+            <img src="anahi.jpg" alt="">
+            <div class="contenido-texto-card">
+                <h4>Anahi Salto</h4>
+                <p>grandes fotos, gracias por aportar</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="gobCDMX.jpg" alt="">
+            <div class="contenido-texto-card">
+                <h4>gob CDMX</h4>
+                <p>muy bonitas las fotos, muestra de lo bella que es la ciudad</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<section class="contacto" >
+   <a name="contacto"><h2 class="titulo"> nuestro contacto :)</h2></a> 
+    
+    <center>
+        <a href="https://www.facebook.com/FOTOCDMX2021/"> <button type="button" class="btn btn-success">Facebook</button>  </a>
+      
+        <a href="https://www.pinterest.com.mx/coolhuntermx/_created/"> <button type="button" class="btn btn-danger">pinterest</button>  </a>
+        <br>
+        <br>
+        <h4>ubicacion fisica </h4> <br>
+        <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7521.766539639445!2d-99.12948947295287!3d19.503657300000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f995439be697%3A0x6443e2bafd7b62cc!2sPHOTO%20EXPRESS!5e0!3m2!1ses-419!2smx!4v1654456408997!5m2!1ses-419!2smx" width="600" height="450" style="border:0;"
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+</section>
+
+<br>
+<footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h4>numero telefonico</h4>
+            <p>5568023347</p>
+        </div>
+        <div class="content-foo">
+            <h4>correo</h4>
+            <p>m_arco999@hotnail.com</p>
+        </div>
+        <div class="content-foo">
+            <h4>Correo Institucional</h4>
+            <p>mhernandezt1500@alumno.ipn.mx</p>
+        </div>
+    </div>
+    <h2 class="titulo-final">&copy; Marco PHOTO EXPRESS | Marco hernandez</h2>
+
+
+    </div>
+
+
+</footer>
+
+
+</body>
+</html>
